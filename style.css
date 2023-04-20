@@ -1,0 +1,230 @@
+/* QUITA EL SCROLL BAR DE ABAJO*/
+body {
+    overflow-x: hidden;
+  }
+
+/* BOTONES DE NAVBAR */
+.list-group-item{
+    --bs-list-group-bg: transparent;
+    --bs-list-group-border-color: none;
+  }
+
+
+  
+  /*icono linkedin*/
+  
+  .bi.bi-linkedin{
+    color:white;
+    font-size: 30px;
+  }
+  
+  .bi-linkedin:hover{
+    color: rgb(52, 172, 252);
+    text-decoration: none;
+    transition: .5s;
+  }
+  
+  /*icono github*/
+  
+  .bi.bi-github{
+    color:white;
+    font-size: 30px;
+  }
+  
+  .bi-github:hover{
+    color: gray;
+    text-decoration: none;
+    transition: .5s;
+  }
+  
+  /*icono youtube*/
+  .bi.bi-youtube{
+    color:white;
+    font-size: 30px;
+  }
+  
+  .bi-youtube:hover{
+    color: rgb(247, 82, 82);
+    text-decoration: none;
+    transition: .5s;
+  }
+  
+  /*icono instagram*/
+  
+  .bi.bi-instagram{
+    color:white;
+    font-size: 30px;
+  }
+  
+  .bi.bi-instagram:hover{
+    color: #8134AF;
+    text-decoration: none;
+    transition: .5s;
+  }
+  
+  /*icono login*/
+  .bi.bi-person-circle{
+    color:white;
+    font-size: 30px;
+  }
+  
+  .bi.bi-person-circle:hover{
+    color: rgb(52, 252, 152);
+    text-decoration: none;
+    transition: .5s;
+  }
+  .navbar {
+    --bs-navbar-padding-x: none!important;
+    
+  }
+
+   /* BANNER PC*/
+
+   .banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position:relative;
+    bottom: 1px;
+}
+
+/*TEXTO DE BANNER*/
+/*NOMBRE */
+
+.descripcion{
+    position:relative;
+    background-color: black; 
+    font-size:25px;
+    bottom: 88px;
+    z-index: 2;
+}
+
+/*NOMBRE MATIAS*/
+.nombre{
+    color: #2aecfa;
+}
+
+/*FULL STACK DEVELOPER*/
+.posicion{
+    position: relative;
+    background-color: #566573;
+    font-size:15px;
+    bottom: 97px;
+    z-index: 1;
+}
+
+/* LAPIZ-BANNER */
+.lapiz-banner{
+    position: relative;
+    font-size:15px;
+    bottom: 128px;
+    left: 175px;
+    z-index: 3;
+}
+
+/* FOTO PERFIL */
+.foto-perfil{
+    position:relative;
+    width: 6rem;
+    bottom: 50px;
+}
+/* LAPIZ-FOTO */
+.lapiz-foto{
+    position: relative;
+    font-size:15px;
+    bottom: 120px;
+    left: 50px;
+    z-index: 3;
+}
+/* TEXTO DEBAJO DE FOTO */
+.datos{
+    position: relative;
+    bottom: 120px;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+/* NOMBRE MATIAS TORRES DEBAJO DE FOTO*/
+
+.fs-4.text-white.text-center{
+    position: relative;
+    left: 15px;
+}
+/*LAPIZ DE DATOS*/
+.bi.bi-pencil-fill.text-white.p-2.lapiz-datos{
+    font-size: 15px;
+    position: relative;
+    left: 70px;
+ }
+ /* LAPIZ ACERCA DE*/
+.bi.bi-pencil-fill.text-white.p-2.lapiz-acerca{
+    position: relative;
+    right: 25px;
+}
+
+
+/*BOTON AGREGAR EN EXPERIENCIA*/
+.bi.bi-plus-lg.text-white.p-3{
+    position: relative;
+    right: 25px;
+}
+
+
+
+
+/* MODAL EDICION*/
+/*boton modal*/
+/*formulario*/
+
+.btn-color{
+    background-color: #0e1c36;
+    color: #fff;
+    
+  }
+  
+  .profile-image-pic{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+  }
+  
+  
+  
+  .cardbody-color{
+    background-image: linear-gradient(to top, #13f5ff, #41acd8, #59688e, #3d3140, #000000);
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  /*icono de usuario en login*/
+  
+  .img-fluid.profile-image-pic.img-thumbnail.rounded-circle.my-3{
+    width: 200px;
+    height: 200px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    object-fit: contain;
+    
+  }
+  
+  /*EDUCACION*/
+
+  /*TEXTO EDUCACION*/
+  .texto-educacion{
+    font-size: 22px;
+  }
+/*HACE IGUAL A TODOS LOS CONTAINERS*/
+  .container-fluid{
+    --bs-gutter-x: none!important;
+  }
+
+@media screen and (max-width:376px){
+    
+    .header-main{
+        height: initial;
+    }
+}

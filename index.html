@@ -1,0 +1,799 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio Frontend Bootstrap</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  </head>
+  <body class="bg-dark">
+    <main>
+      <header>
+<!-- NAVBAR START -->
+  <nav class="navbar border-bottom navbar-expand-lg  bg-dark ">
+    <div class="container-fluid">
+        <img src="assets/APLogo-20-20.png" alt="" width="101px" height="" class="d-inline-block align-text-top" id="logo">
+         <ul class=" list-group list-group-horizontal align-items-center">
+          <li class="list-group-item">
+            <a class="nav-link" href="#"><i class="bi bi-linkedin"></i></a>
+          </li>
+          <li class="list-group-item">
+            <a class="nav-link" href="#"><i class="bi bi-github"></i></a>
+          </li>
+          <li class="list-group-item">
+            <a class="nav-link" href="#"><i class="bi bi-instagram"></i></a>
+          </li>
+          <li class="list-group-item">
+            <button type="button" class="btn p-0" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class="bi bi-person-circle"></i></button> 
+          </li>
+        </ul>
+    </div>
+  </nav>
+  </header>
+<!-- NAVBAR END -->
+<!-- BANNER START -->
+<div class="container-fluid  mt-2 border rounded-4">
+    <div class="row mx-auto mt-n1 border-top rounded-4 align-item-center ">
+      <div class="col-12 text-center text-white p-0   banner">
+        <img src="/assets/laptop-MOBILE.jpg" class="banner border rounded-4 mt-0">
+        <img src="assets/foto-perfil.jpg" alt="" class="border rounded-circle p-0 m-0 foto-perfil">
+          <i class="bi bi-pencil-fill text-white p-2 lapiz-banner"></i>
+          <i class="bi bi-pencil-fill text-white p-2 lapiz-foto"></i>
+      </div>
+    </div>
+<!-- TEXTO ABAJO DE LA FOTO-PERFIL -->
+    <div class="row datos">
+      <div class="col-12">
+          <h1 class="fs-4 text-white text-center">Matias Torres <i class="bi bi-pencil-fill text-white p-2 lapiz-datos"></i></h1>
+          <h3 class="fs-5 text-white text-center">Programador Full Stack Jr</h3>
+          <h3 class="fs-6 text-white text-center">Rio Negro (Argentina) <span class="text-info"><a href="" class="text-decoration-none">Información de contacto</a></span>
+        </h3>
+            <button type="button" class="btn btn-primary d-grid mx-auto">Añadir Sección</button>
+      </div>
+    </div>
+<!-- TEXTO ABAJODE LA FOTO-PERFIL -->
+</div> 
+<!-- BANNER END -->
+<!-- ACERCA DE START -->
+<div class="container-fluid">
+    <div class="row border rounded-4 m-2 bg-dark">
+      <div class="col-12">
+        <div class="row">
+          <div class="col-11"><h1 class="text-white">Acerca de</h1></div>
+          <div class="col-1 mt-3"><i class="bi bi-pencil-fill text-white p-2 lapiz-acerca"></i></div>
+          <div class="row">
+            <div class="col-11">
+              <p class="text-white">Estudiante, autodidacta, músico.</p>
+            </div>
+          <div class="col-1"> 
+
+          </div>
+        </div>
+        </div> 
+      </div>
+    </div>
+  </div>
+  <!-- ACERCA DE END -->
+  <!-- EXPERIENCIA START -->
+  <div class="container-fluid">
+    <div class="row border rounded-4 m-2 bg-dark">
+      <div class="col-12">
+        <div class="row">
+          <div class="col-11"><h1 class="text-white">Experiencia</h1></div>
+          <div class="col-1 mt-3"><i class="bi bi-plus-lg text-white p-3"></i></div>
+          <div class="row">
+            <div class="col-11">
+              <div class="row">
+                <div class="col-3">
+                 
+                    <img  class="about-image imagen-empleado" width="40%"  src="./assets/empleado-comercio.png" alt="imagen-empleado">
+                </div>
+                <div class="col-8">
+                    <p class="a-name text-white">Atención al cliente, repositor, ventas.</p>
+                    <p class="a-job text-white">Minimercado - "San José"</p>
+                        <p class="text text-white">Diciembre 2015 - 2022</p>
+                        <p class="text text-white">San Carlos de Bariloche, Argentina</p>
+                </div>
+            </div></p>
+            </div>
+          <div class="col-1"> 
+            <i class="bi bi-pencil-fill text-white p-2"></i>
+            <i class="bi bi-trash text-white"></i>
+          </div>
+        </div>
+        </div> 
+      </div>
+    </div>
+  </div>
+  <!-- EXPERIENCIA END -->
+  <!-- EDUCACION START -->
+  <div class="container-container-fluid">
+    <div class="row border border-white rounded-4 m-2 bg-dark">
+      <div class="col-12">
+        <div class="row">
+          <div class="col-11"><h1 class="text-white">Educación</h1></div>
+          <div class="col-1 mt-3"><i class="bi bi-plus-lg text-white p-3"></i></div>
+          <!-- COLUMNA Y FILA DE EDUCACION SECUNDARIA -->
+          <div class="row">
+            <div class="col-11">
+              <div class="row">
+              <div class="col-3">
+              <img src="/assets/logo-cpem.png" width="40%" alt="">
+            </div>
+            <div class="col-8">
+              <p class="text-white">C.P.E.M N°28<br>
+                Centro Provincial de Enseñanza Media N°28<br>
+                2004 - 2009 /<br> San Martin de los Andes</p>
+            </div>
+          </div>
+            </div>
+          <div class="col-1"> 
+            <i class="bi bi-pencil-fill text-white p-2"></i>
+            <i class="bi bi-trash text-white"></i>
+          </div>
+            <!--  COLUMNA Y FILA DE EDUCACION UNIVERSITARIA -->  
+        </div>
+        </div> 
+      </div>
+      <!-- EDUCACION UNIVERSITARIA -->    
+      <div class="col-12">
+        <div class="row">
+          <div class="col-11"><h1 class="text-white"></h1></div>
+          <div class="col-1 mt-3"></div>
+          <!-- COLUMNA Y FILA DE EDUCACION SECUNDARIA -->
+          <div class="row">
+            <div class="col-11">
+              <div class="row">
+              <div class="col-3">
+              <img src="/assets/logo-unco.jpg" width="55px" alt="">
+            </div>
+            <div class="col-8">
+              <p class="text-white">UNCO<br>
+                Licenciatura en Comunicación Social<br>
+                2016 - presente /<br> General Roca</p>
+            </div>
+          </div>
+            </div>
+          <div class="col-1"> 
+            <i class="bi bi-pencil-fill text-white p-2"></i>
+            <i class="bi bi-trash text-white"></i>
+          </div>
+            <!--  COLUMNA Y FILA DE EDUCACION UNIVERSITARIA -->  
+        </div>
+        </div> 
+      </div>
+<!-- EDUCACION UNIVERSITARIA END -->
+    </div>   
+  </div>
+  <!-- EDUCACION END -->
+  <!-- CURSOS START -->
+  <div class="container-fluid">
+    <div class="row border border-white rounded-4 m-2 bg-dark">
+        <div class="col-12">
+          <div class="row">
+            <div class="col-11"><h1 class="text-white">Cursos</h1></div>
+            <div class="col-1 mt-3"><i class="bi bi-plus-lg text-white p-3"></i></div>
+            <!-- COLUMNA Y FILA DE CURSOS -->
+            <div class="row">
+              <div class="col-11">
+                <div class="row">
+                <div class="col-3">
+                <img src="/assets/APLogo-20-20.png" width="55px" alt="">
+              </div>
+              <div class="col-8">
+                <p class="text-white">Argentina Programa<br>
+                  Desarrollo Full Stack Jr<br>
+                  2022 - 2023 </p>
+              </div>
+            </div>
+              </div>
+            <div class="col-1"> 
+              <i class="bi bi-pencil-fill text-white p-2"></i>
+              <i class="bi bi-trash text-white"></i>
+            </div>
+              <!--  COLUMNA Y FILA DE EDUCACION UNIVERSITARIA -->
+          </div>
+          </div> 
+        </div>
+        <!-- EDUCACION UNIVERSITARIA -->
+        <div class="col-12">
+          <div class="row">
+            <div class="col-11"><h1 class="text-white"></h1></div>
+            <div class="col-1 mt-3"></div>
+            <!-- COLUMNA Y FILA DE EDUCACION SECUNDARIA -->
+            <div class="row">
+              <div class="col-11">
+                <div class="row">
+                <div class="col-3">
+                <img src="/assets/logo-oracle.png" width="55px" alt="">
+              </div>
+              <div class="col-8">
+                <p class="text-white">Oracle Next Education<br>
+                  Principiante en Programación<br>
+                  2022 </p>
+              </div>
+            </div>
+              </div>
+            <div class="col-1"> 
+              <i class="bi bi-pencil-fill text-white p-2"></i>
+              <i class="bi bi-trash text-white"></i>
+            </div>
+              <!--  COLUMNA Y FILA DE EDUCACION UNIVERSITARIA -->  
+          </div>
+          </div> 
+        </div>
+  <!-- EDUCACION UNIVERSITARIA END -->
+  
+  <div class="col-12">
+    <div class="row">
+      <div class="col-11"><h1 class="text-white"></h1></div>
+      <div class="col-1 mt-3"></div>
+      <!-- COLUMNA Y FILA DE EDUCACION SECUNDARIA -->
+      <div class="row">
+        <div class="col-11">
+          <div class="row">
+          <div class="col-3">
+          <img src="/assets/freecodecamp.jpg" width="55px" alt="">
+        </div>
+        <div class="col-8">
+          <p class="text-white">FreeCodeCamp<br>
+            Diseño Web Responsivo<br>
+            2022  </p>
+        </div>
+      </div>
+        </div>
+      <div class="col-1"> 
+        <i class="bi bi-pencil-fill text-white p-2"></i>
+        <i class="bi bi-trash text-white"></i>
+      </div>
+        <!--  COLUMNA Y FILA DE EDUCACION UNIVERSITARIA -->  
+    </div>
+    </div> 
+  </div>
+  
+  <div class="col-12">
+    <div class="row">
+      <div class="col-11"><h1 class="text-white"></h1></div>
+      <div class="col-1 mt-3"></div>
+      <!-- COLUMNA Y FILA DE EDUCACION SECUNDARIA -->
+      <div class="row">
+        <div class="col-11">
+          <div class="row">
+          <div class="col-3">
+          <img src="/assets/logo_fundacion.png" width="55px" alt="">
+        </div>
+        <div class="col-8">
+          <p class="text-white">Programa Conecta Empleo<br>
+            Programación con Javascript<br>
+            Jun.2022</p>
+        </div>
+      </div>
+        </div>
+      <div class="col-1"> 
+        <i class="bi bi-pencil-fill text-white p-2"></i>
+        <i class="bi bi-trash text-white"></i>
+      </div>
+        <!--  COLUMNA Y FILA DE EDUCACION UNIVERSITARIA -->  
+    </div>
+    </div> 
+  </div>
+  
+  <div class="col-12">
+    <div class="row">
+      <div class="col-11"><h1 class="text-white"></h1></div>
+      <div class="col-1 mt-3"></div>
+      <!-- COLUMNA Y FILA DE EDUCACION SECUNDARIA -->
+      <div class="row">
+        <div class="col-11">
+          <div class="row">
+          <div class="col-3">
+          <img src="/assets/OpenBootcamp_Logo_2.jpg" width="55px" alt="">
+        </div>
+        <div class="col-8">
+          <p class="text-white">OpenBootcamp<br>
+            Desarrollo Frontend<br>
+            2022 - presente</p>
+        </div>
+      </div>
+        </div>
+      <div class="col-1"> 
+        <i class="bi bi-pencil-fill text-white p-2"></i>
+        <i class="bi bi-trash text-white"></i>
+      </div>
+        <!--  COLUMNA Y FILA DE EDUCACION UNIVERSITARIA -->  
+    </div>
+    </div> 
+  </div>
+  
+      </div>
+    </div>
+  <!-- CURSOS END -->
+  <!-- SKILLS START -->
+  <div class="container-fluid">
+  <div class="row border border-white rounded-4 m-2 bg-dark">
+      <div class="col-12">
+        <div class="row">
+          <div class="col-11"><h1 class="text-white">Hard Skills & Soft Skills</h1></div>
+          <div class="col-1 mt-3"><i class="bi bi-plus-lg text-white p-3"></i></div>
+          <!-- COLUMNA Y FILA DE CURSOS -->
+          <div class="row">
+            <div class="col-11">
+              <div class="row">
+              <div class="col-12 col-sm-3">
+              <h3 class="text-white text-center">Html5</h3>
+            </div>
+            <div class="col-12 col-md-8 align-self-center">
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+              </div>
+            </div>
+          </div>
+            </div>
+          <div class="col-1"> 
+            <i class="bi bi-pencil-fill text-white p-2"></i>
+            <i class="bi bi-trash text-white"></i>
+          </div>
+            <!--  COLUMNA Y FILA DE EDUCACION UNIVERSITARIA -->
+        </div>
+        </div> 
+      </div>
+      <!-- EDUCACION UNIVERSITARIA -->
+      <div class="col-12">
+        <div class="row">
+          <div class="col-11"><h1 class="text-white"></h1></div>
+          <div class="col-1 mt-3"></div>
+          <!-- COLUMNA Y FILA DE EDUCACION SECUNDARIA -->
+          <div class="row">
+            <div class="col-11">
+              <div class="row">
+              <div class="col-12 col-sm-3">
+              <h3 class="text-white text-center">CSS</h3>
+            </div>
+            <div class="col-12 col-md-8 align-self-center">
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+              </div>
+            </div>
+          </div>
+            </div>
+          <div class="col-1"> 
+            <i class="bi bi-pencil-fill text-white p-2"></i>
+            <i class="bi bi-trash text-white"></i>
+          </div>
+            <!--  COLUMNA Y FILA DE EDUCACION UNIVERSITARIA -->  
+        </div>
+        </div> 
+      </div>
+<!-- EDUCACION UNIVERSITARIA END -->
+
+<div class="col-12">
+  <div class="row">
+    <div class="col-11"><h1 class="text-white text-center"></h1></div>
+    <div class="col-1 mt-3"></div>
+    <!-- COLUMNA Y FILA DE EDUCACION SECUNDARIA -->
+    <div class="row">
+      <div class="col-11">
+        <div class="row">
+        <div class="col-12 col-sm-3">
+        <h3 class="text-white text-center">Javascript</h3>
+      </div>
+      <div class="col-12 col-md-8 align-self-center">
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+        </div>
+      </div>
+    </div>
+      </div>
+    <div class="col-1"> 
+      <i class="bi bi-pencil-fill text-white p-2"></i>
+      <i class="bi bi-trash text-white"></i>
+    </div>
+      <!--  COLUMNA Y FILA DE EDUCACION UNIVERSITARIA -->  
+  </div>
+  </div> 
+</div>
+
+<div class="col-12">
+  <div class="row">
+    <div class="col-11"><h1 class=""></h1></div>
+    <div class="col-1 mt-3"></div>
+    <!-- COLUMNA Y FILA DE EDUCACION SECUNDARIA -->
+    <div class="row">
+      <div class="col-11">
+        <div class="row">
+        <div class="col-12 col-sm-3">
+        <h3 class="text-white text-center">Bootstrap 5</h3>
+      </div>
+      <div class="col-12 col-md-8 align-self-center">
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+        </div>
+      </div>
+    </div>
+      </div>
+    <div class="col-1"> 
+      <i class="bi bi-pencil-fill text-white p-2"></i>
+      <i class="bi bi-trash text-white"></i>
+    </div>
+      <!--  COLUMNA Y FILA DE EDUCACION UNIVERSITARIA -->  
+  </div>
+  </div> 
+</div>
+
+<div class="col-12">
+  <div class="row">
+    <div class="col-11"><h1 class=""></h1></div>
+    <div class="col-1 mt-3"></div>
+    <!-- COLUMNA Y FILA DE EDUCACION SECUNDARIA -->
+    <div class="row">
+      <div class="col-11">
+        <div class="row">
+        <div class="col-12 col-sm-3">
+        <h3 class="text-white text-center">Angular</h3>
+      </div>
+      <div class="col-12 col-md-8 align-self-center">
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+        </div>
+      </div>
+    </div>
+      </div>
+    <div class="col-1"> 
+      <i class="bi bi-pencil-fill text-white p-2"></i>
+      <i class="bi bi-trash text-white"></i>
+    </div>
+      <!--  COLUMNA Y FILA DE EDUCACION UNIVERSITARIA -->  
+  </div>
+  </div> 
+</div>
+
+<div class="col-12">
+  <div class="row">
+    <div class="col-11"><h1 class=""></h1></div>
+    <div class="col-1 mt-3"></div>
+    <!-- COLUMNA Y FILA DE EDUCACION SECUNDARIA -->
+    <div class="row">
+      <div class="col-11">
+        <div class="row">
+        <div class="col-12 col-sm-3">
+        <h3 class="text-white text-center">Git y Github</h3>
+      </div>
+      <div class="col-12 col-md-8 align-self-center">
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+        </div>
+      </div>
+    </div>
+      </div>
+    <div class="col-1"> 
+      <i class="bi bi-pencil-fill text-white p-2"></i>
+      <i class="bi bi-trash text-white"></i>
+    </div>
+      <!--  COLUMNA Y FILA DE EDUCACION UNIVERSITARIA -->  
+  </div>
+  </div> 
+</div>
+
+<div class="col-12">
+  <div class="row">
+    <div class="col-11"><h1 class=""></h1></div>
+    <div class="col-1 mt-3"></div>
+    <!-- COLUMNA Y FILA DE EDUCACION SECUNDARIA -->
+    <div class="row">
+      <div class="col-11">
+        <div class="row">
+        <div class="col-12 col-sm-3">
+        <h3 class="text-white text-center">Trabajo En Equipo</h3>
+      </div>
+      <div class="col-12 col-md-8 align-self-center">
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+        </div>
+      </div>
+    </div>
+      </div>
+    <div class="col-1"> 
+      <i class="bi bi-pencil-fill text-white p-2"></i>
+      <i class="bi bi-trash text-white"></i>
+    </div>
+      <!--  COLUMNA Y FILA DE EDUCACION UNIVERSITARIA -->  
+  </div>
+  </div> 
+</div>
+
+<div class="col-12">
+  <div class="row">
+    <div class="col-11"><h1 class=""></h1></div>
+    <div class="col-1 mt-3"></div>
+    <!-- COLUMNA Y FILA DE EDUCACION SECUNDARIA -->
+    <div class="row">
+      <div class="col-11">
+        <div class="row">
+        <div class="col-12 col-sm-3">
+        <h3 class="text-white text-center">Adaptación al cambio</h3>
+      </div>
+      <div class="col-12 col-md-8 align-self-center">
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+        </div>
+      </div>
+    </div>
+      </div>
+    <div class="col-1"> 
+      <i class="bi bi-pencil-fill text-white p-2"></i>
+      <i class="bi bi-trash text-white"></i>
+    </div>
+      <!--  COLUMNA Y FILA DE EDUCACION UNIVERSITARIA -->  
+  </div>
+  </div> 
+</div>
+
+<div class="col-12">
+  <div class="row">
+    <div class="col-11"><h1 class=""></h1></div>
+    <div class="col-1 mt-3"></div>
+    <!-- COLUMNA Y FILA DE EDUCACION SECUNDARIA -->
+    <div class="row">
+      <div class="col-11">
+        <div class="row">
+        <div class="col-12 col-sm-3">
+        <h3 class="text-white text-center">Scrum</h3>
+      </div>
+      <div class="col-12 col-md-8 align-self-center">
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+        </div>
+      </div>
+    </div>
+      </div>
+    <div class="col-1"> 
+      <i class="bi bi-pencil-fill text-white p-2"></i>
+      <i class="bi bi-trash text-white"></i>
+    </div>
+      <!--  COLUMNA Y FILA DE EDUCACION UNIVERSITARIA -->  
+  </div>
+  </div> 
+</div>
+
+    </div>
+  </div>
+  <!-- SKILLS END -->
+  <!-- PROYECTOS START -->
+  <div class="container-container-fluid">
+    <div class="row border rounded-4 m-2 bg-dark">
+      <div class="col-12">
+        <div class="row">
+          <div class="col-11"><h1 class="text-white">Proyectos</h1></div>
+          <div class="col-1 mt-3"><i class="bi bi-plus-lg text-white p-3"></i></div>
+          <div class="row">
+            <section class="portfolio bg-grey py-5" id="portfolio">
+              <div class="container-lg py-4">
+                <div class="row justify-content-center">
+                  <div class="col-lg-8">
+                    <div class="section-title text-center">
+                      <h2 class="fw-bold mb-5 proyectos-section"></h2>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  
+                  <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item">
+                      <img src="https://i.postimg.cc/qvLbxwWB/Captura-de-pantalla-5.png" class="imagen-portfolio w-100" alt="">
+                      <!-- TEXTO DEBAJO DE IMAGEN WEB -->
+                      <div class="row">
+                        <div class="col-12">
+                          <div class="row">
+                            <div class="col-9 col-sm-9 col-md-9  col-lg-9">
+                              <h3 class="text-capitalize text-white fs-5 my-2">Documentación Técnica</h3>
+                            </div>
+                            <div class="col-3 col-sm-3 col-md-3 col-lg-3 align-self-center"> 
+                              <i class="bi bi-pencil-fill text-white p-2"></i>
+                              <i class="bi bi-trash text-white"></i>
+                            </div>                         
+                          </div>
+                        </div>                     
+                      </div>
+                      <!-- TEXTO DEBAJO DE IMAGEN WEB end -->
+                      <p class="mb-4"><a href="#" class="text-danger text-decoration-none">Live Demo</a></p>
+                    </div>
+                  </div>
+                  
+            
+                  <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item">
+                      <img src="https://i.postimg.cc/pXPfxFs3/Captura-de-pantalla-6.png" class="imagen-portfolio w-100" alt="">
+                      <!-- TEXTO DEBAJO DE IMAGEN WEB -->
+                      <div class="row">
+                        <div class="col-12">
+                          <div class="row">
+                            <div class="col-9 col-sm-9 col-md-9  col-lg-9">
+                              <h3 class="text-capitalize text-white fs-5 my-2">Landing Page</h3>
+                            </div>
+                            <div class="col-3 col-sm-3 col-md-3 col-lg-3 align-self-center"> 
+                              <i class="bi bi-pencil-fill text-white p-2"></i>
+                              <i class="bi bi-trash text-white"></i>
+                            </div>                         
+                          </div>
+                        </div>                     
+                      </div>
+                      <!-- TEXTO DEBAJO DE IMAGEN WEB end -->
+                      <p class="mb-4"><a href="#" class="text-danger text-decoration-none">Live Demo</a></p>
+                    </div>
+                  </div>
+                  
+            
+                  <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item">
+                      <img src="https://i.postimg.cc/qvLbxwWB/Captura-de-pantalla-5.png" class="imagen-portfolio w-100" alt="">
+                      <!-- TEXTO DEBAJO DE IMAGEN WEB -->
+                      <div class="row">
+                        <div class="col-12">
+                          <div class="row">
+                            <div class="col-9 col-sm-9 col-md-9  col-lg-9">
+                              <h3 class="text-capitalize text-white fs-5 my-2">Barberia Alura</h3>
+                            </div>
+                            <div class="col-3 col-sm-3 col-md-3 col-lg-3 align-self-center"> 
+                              <i class="bi bi-pencil-fill text-white p-2"></i>
+                              <i class="bi bi-trash text-white"></i>
+                            </div>                         
+                          </div>
+                        </div>                     
+                      </div>
+                      <!-- TEXTO DEBAJO DE IMAGEN WEB end -->
+                      <p class="mb-4"><a href="#" class="text-danger text-decoration-none">Live Demo</a></p>
+                    </div>
+                  </div>
+            
+                  <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item">
+                      <img src="https://i.postimg.cc/qvLbxwWB/Captura-de-pantalla-5.png" class="imagen-portfolio w-100" alt="">
+                      <!-- TEXTO DEBAJO DE IMAGEN WEB -->
+                      <div class="row">
+                        <div class="col-12">
+                          <div class="row">
+                            <div class="col-9 col-sm-9 col-md-9  col-lg-9">
+                              <h3 class="text-capitalize text-white fs-5 my-2">Encriptador-Desencriptador</h3>
+                            </div>
+                            <div class="col-3 col-sm-3 col-md-3 col-lg-3 align-self-center"> 
+                              <i class="bi bi-pencil-fill text-white p-2"></i>
+                              <i class="bi bi-trash text-white"></i>
+                            </div>                         
+                          </div>
+                        </div>                     
+                      </div>
+                      <!-- TEXTO DEBAJO DE IMAGEN WEB end -->
+                      <p class="mb-4"><a href="#" class="text-danger text-decoration-none">Live Demo</a></p>
+                    </div>
+                  </div>
+            
+                  <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item">
+                      <img src="https://i.postimg.cc/qvLbxwWB/Captura-de-pantalla-5.png" class="imagen-portfolio w-100" alt="">
+                      <!-- TEXTO DEBAJO DE IMAGEN WEB -->
+                      <div class="row">
+                        <div class="col-12">
+                          <div class="row">
+                            <div class="col-9 col-sm-9 col-md-9  col-lg-9">
+                              <h3 class="text-capitalize text-white fs-5 my-2">Juego del Ahorcado</h3>
+                            </div>
+                            <div class="col-3 col-sm-3 col-md-3 col-lg-3 align-self-center"> 
+                              <i class="bi bi-pencil-fill text-white p-2"></i>
+                              <i class="bi bi-trash text-white"></i>
+                            </div>                         
+                          </div>
+                        </div>                     
+                      </div>
+                      <!-- TEXTO DEBAJO DE IMAGEN WEB end -->>
+                      <p class="mb-4"><a href="#" class="text-danger text-decoration-none">Live Demo</a></p>
+                    </div>
+                  </div>
+            
+                  <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item">
+                      <img src="https://i.postimg.cc/qvLbxwWB/Captura-de-pantalla-5.png" class="imagen-portfolio w-100" alt="">
+                      <!-- TEXTO DEBAJO DE IMAGEN WEB -->
+                      <div class="row">
+                        <div class="col-12">
+                          <div class="row">
+                            <div class="col-9 col-sm-9 col-md-9  col-lg-9">
+                              <h3 class="text-capitalize text-white fs-5 my-2">Calculadora</h3>
+                            </div>
+                            <div class="col-3 col-sm-3 col-md-3 col-lg-3 align-self-center"> 
+                              <i class="bi bi-pencil-fill text-white p-2"></i>
+                              <i class="bi bi-trash text-white"></i>
+                            </div>                         
+                          </div>
+                        </div>                     
+                      </div>
+                      <!-- TEXTO DEBAJO DE IMAGEN WEB end -->
+                      <p class="mb-4"><a href="#" class="text-danger text-decoration-none">Live Demo</a></p>
+                    </div>
+                  </div>
+  
+                  <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item">
+                      <img src="https://i.postimg.cc/qvLbxwWB/Captura-de-pantalla-5.png" class="imagen-portfolio w-100" alt="">
+                      <!-- TEXTO DEBAJO DE IMAGEN WEB -->
+                      <div class="row">
+                        <div class="col-12">
+                          <div class="row">
+                            <div class="col-9 col-sm-9 col-md-9  col-lg-9">
+                              <h3 class="text-capitalize text-white fs-5 my-2">Aplicación de Tareas</h3>
+                            </div>
+                            <div class="col-3 col-sm-3 col-md-3 col-lg-3 align-self-center"> 
+                              <i class="bi bi-pencil-fill text-white p-2"></i>
+                              <i class="bi bi-trash text-white"></i>
+                            </div>                         
+                          </div>
+                        </div>                     
+                      </div>
+                      <!-- TEXTO DEBAJO DE IMAGEN WEB end -->
+                      <p class="mb-4"><a href="#" class="text-danger text-decoration-none">Live Demo</a></p>
+                    </div>
+                  </div>
+          
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+        </div>
+        </div> 
+      </div>
+    </div>
+  </div>
+   <!-- PROYECTOS END -->
+   <!-- FOOTER START -->
+  <div class="container-fluid">
+    <div class="row border-top border-bottom border-white align-items-center bg-dark">
+        <div class="col-md-12 text-center mt-3">
+            <p class="text-white p-0">Copyright© 2023</p>
+        </div>
+    </div>
+  </div>
+    <!-- FOOTER END -->
+    </main>
+    <!-- MODAL START -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header ">
+        <h5 class="modal-title" id="staticBackdropLabel">Login</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        
+        <form class="card-body cardbody-color p-lg-5">
+
+          <div class="text-center">
+            <img src="./assets/icono-usuario.png" class="img-fluid profile-image-pic img-thumbnail rounded-circle my-3"
+              width="200px" alt="profile">
+          </div>
+
+          <div class="mb-3">
+            <input type="text" class="form-control" id="Username" aria-describedby="emailHelp"
+              placeholder="nombre">
+          </div>
+          <div class="mb-3">
+            <input type="password" class="form-control" id="password" placeholder="password">
+          </div>
+          <div class="text-center"><button type="submit" class="btn btn-color px-5 mb-5 w-100">Login</button></div>
+          <div id="emailHelp" class="form-text text-center mb-5 text-dark">no estas registrado? <a href="#" class="text-dark fw-bold"> Crea una nueva cuenta</a>
+          </div>
+        </form>
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- MODAL END -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+</html>
