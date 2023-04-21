@@ -7,6 +7,44 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- Codigo javascript-->
+    <script>
+
+
+const lapizBanner = document.querySelector(".lapiz-banner");
+const bannerUpload = document.getElementById("banner-upload");
+const banner = document.getElementById("banner");
+
+function abrirSelectorDeArchivos() {
+  bannerUpload.click();
+}
+
+function cambiarBanner() {
+  const input = event.target;
+  if (input.files && input.files[0]) {
+    const reader = new FileReader();
+    reader.onload = function(e) {
+      banner.src = e.target.result;
+      banner.style.display = 'block';
+
+    }
+    reader.readAsDataURL(input.files[0]);
+  }
+}
+
+lapizBanner.addEventListener("click", function() {
+  abrirSelectorDeArchivos();
+});
+
+bannerUpload.addEventListener("change", function() {
+  cambiarBanner();
+});
+
+
+
+
+		
+    </script>
   </head>
   <body class="bg-dark">
     <main>
@@ -34,13 +72,18 @@
   </header>
 <!-- NAVBAR END -->
 <!-- BANNER START -->
+<input type="file" id="input-cambiar-banner" onchange="cambiarBanner(event)" style="display: none;">
+
 <div class="container-fluid  mt-2 border rounded-4">
     <div class="row mx-auto mt-n1 border-top rounded-4 align-item-center ">
       <div class="col-12 text-center text-white p-0   banner">
-        <img src="/assets/laptop-MOBILE.jpg" class="banner border rounded-4 mt-0">
-        <img src="assets/foto-perfil.jpg" alt="" class="border rounded-circle p-0 m-0 foto-perfil">
-          <i class="bi bi-pencil-fill text-white p-2 lapiz-banner"></i>
-          <i class="bi bi-pencil-fill text-white p-2 lapiz-foto"></i>
+        <img src="/assets/laptop-MOBILE.jpg" class="banner border rounded-4 mt-0" id="banner">
+        <img id="foto-perfil" src="assets/foto-perfil.jpg" alt="" class="border rounded-circle p-0 m-0 foto-perfil">
+          <i class="bi bi-pencil-fill text-white p-2 lapiz-banner" id="lapiz-banner" onclick="document.getElementById('input-cambiar-banner').click();"
+          ></i>
+          <i class="bi bi-pencil-fill text-white p-2 lapiz-foto" onclick="cambiarFoto()"></i>
+          <input type="file" id="file-input" accept="image/*" style="display: none;">
+
       </div>
     </div>
 <!-- TEXTO ABAJO DE LA FOTO-PERFIL -->

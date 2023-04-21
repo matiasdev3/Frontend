@@ -138,6 +138,12 @@ body {
     left: 50px;
     z-index: 3;
 }
+/* LAPIZ-FOTO EFECTO DE AGRANDAR ICONO*/
+.lapiz-foto:hover {
+  transform: scale(1.2);
+  transition: transform 0.2s ease;
+}
+
 /* TEXTO DEBAJO DE FOTO */
 .datos{
     position: relative;
